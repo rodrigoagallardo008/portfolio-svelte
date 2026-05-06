@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>Rodrigo Gallardo: Personal Site and Portfolio</title>
 </svelte:head>
@@ -18,7 +22,7 @@
 		human-computer interaction, design, and data. I focus on building interactive
 		systems that enhance usability, ergonomics, and real-world performance.
 	</p>
-	<img src="Rodrigo_Headshot.png"
+	<img src="{base}/Rodrigo_Headshot.png"
 		 alt="Photo of Rodrigo Gallardo"
 		 style="width:150px;">
 </div>
