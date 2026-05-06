@@ -18,7 +18,7 @@
 		human-computer interaction, design, and data. I focus on building interactive
 		systems that enhance usability, ergonomics, and real-world performance.
 	</p>
-	<img src="about/aboutfigures/Rodrigo_Headshot.png"
+	<img src="static/Rodrigo_Headshot.png"
 		 alt="Photo of Rodrigo Gallardo"
 		 style="width:150px;">
 </div>
