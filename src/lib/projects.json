@@ -1,65 +1,107 @@
 [
   {
+    "title": "Visuo-Haptic Guidance System",
+    "year": 2025,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "A haptic guidance system combining computer vision and AR to assist users with physical tasks through real-time haptic feedback.",
+    "story": "This project pushed me to think about how machines can guide human hands. By combining computer vision with haptic feedback, I explored how AR can bridge the gap between knowing what to do and physically doing it — turning abstract instructions into felt sensations."
+  },
+  {
+    "title": "MIT NASA SUITS",
+    "year": 2025,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Wearable AR/UX UI system designed for NASA spacesuit interface challenges, focusing on usability in extreme environments.",
+    "story": "Designing for astronauts forced me to strip every interface down to its essentials. When the stakes are life and death, every button, label, and interaction has to be intuitive under pressure, with gloves on, in zero gravity."
+  },
+  {
+    "title": "Self-Folding Modular Chain Robot",
+    "year": 2025,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "A robotic system using geometric folding algorithms to create self-assembling modular chain structures.",
+    "story": "Origami taught me that geometry is a form of intelligence. By encoding fold patterns into a modular chain, I learned how structure itself can become the mechanism — no motors, just math and material."
+  },
+  {
+    "title": "Mixed Reality Optimized Beam Fabrication",
+    "year": 2025,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "AR system overlaying structural optimization data onto physical fabrication processes in real time.",
+    "story": "MROBF started with a simple question: what if a builder could see structural forces while they work? Overlaying simulation data onto physical space transformed how fabricators made decisions — the digital and physical became one continuous workflow."
+  },
+  {
+    "title": "Scene-Aware Urban Design",
+    "year": 2025,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Computer vision and visual language models applied to AR-based urban design analysis and proposal generation.",
+    "story": "Cities are full of visual information that most people walk past without reading. By training models to understand urban scenes, I could generate design proposals that actually responded to their context — not just aesthetics, but social patterns, light, and movement."
+  },
+  {
+    "title": "Affective Translation",
+    "year": 2025,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "HCI research exploring how emotion and affect can be translated across VR and robotics interfaces.",
+    "story": "Can a robot feel? Not yet — but it can communicate affect. This project explored how emotional signals could be encoded into robotic and VR systems, making human-machine interaction feel less transactional and more like genuine exchange."
+  },
+  {
+    "title": "Kinetics of Urban Movement",
+    "year": 2024,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Computer vision and geometric optimization applied to analyzing and visualizing human movement patterns in urban spaces.",
+    "story": "Movement is data. By tracking how people flow through urban spaces, I discovered patterns invisible to casual observation — bottlenecks, desire lines, rhythms of use — and used geometric optimization to make them visible and actionable for designers."
+  },
+  {
+    "title": "Mediated Interfaces",
+    "year": 2023,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Mixed reality interfaces combining structural optimization with HoloLens-based spatial computing.",
+    "story": "What does it mean to see structure? This project let engineers walk through a building and see its forces in real time — tension, compression, load paths — overlaid on the physical space. It changed how I think about what visualization is for."
+  },
+  {
+    "title": "Learning Environments in VR",
+    "year": 2023,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Virtual reality learning environments built in Unreal Engine for immersive educational experiences.",
+    "story": "A classroom doesn't have to have four walls. Building learning environments in VR taught me that presence changes how people engage with ideas — abstract concepts become explorable spaces, and curiosity replaces passivity."
+  },
+  {
+    "title": "ARAM Augmented Reality Additive Manufacturing",
+    "year": 2022,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Mixed reality guidance system for concrete 3D printing fabrication workflows.",
+    "story": "3D printing concrete is as much craft as computation. ARAM overlaid digital guidance onto the physical printing process, helping fabricators make real-time decisions that no algorithm could fully automate — a true human-machine collaboration."
+  },
+  {
+    "title": "K67 Phenomenology",
+    "year": 2022,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Virtual reality exploration of the iconic K67 modular kiosk system using Unreal Engine.",
+    "story": "The K67 kiosk is a piece of socialist design that ended up everywhere — from Ljubljana to New York. Recreating it in VR let me explore not just its form, but its cultural weight: what it meant to stand inside a system designed for everyone."
+  },
+  {
+    "title": "Hercules Aqueduct",
+    "year": 2022,
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Mixed reality reconstruction and structural analysis of the Hercules Aqueduct heritage site.",
+    "story": "Ancient engineers built things that lasted two thousand years without computers. Reconstructing the Hercules Aqueduct in mixed reality let me see their structural logic from the inside — and feel profound respect for what they achieved with stone and intuition."
+  },
+  {
     "title": "PSET 2: Corporate Landlords & Evictions",
     "year": 2026,
     "image": "pset2figures/Neighborhood Corp Ownership.png",
     "description": "Exploratory data analysis of corporate ownership and owner-occupancy rates across Boston neighborhoods from 2004–2024.",
-    "story": "I explored how corporate landlords have reshaped Boston neighborhoods over two decades. The data revealed stark disparities in communities of color like Roxbury and East Boston, where corporate ownership has surged while owner-occupancy declined."
+    "story": "Data made visible what policy debates often obscure. Mapping corporate ownership across Boston neighborhoods revealed a slow reshaping of who controls housing — and who gets displaced — in the city's most vulnerable communities."
   },
   {
     "title": "PSET 3: Visualization Critique & Redesign",
     "year": 2026,
     "image": "pset3figures/Final2.png",
-    "description": "Critical analysis and redesign of existing data visualizations.",
-    "story": "I learned that a chart can mislead just as powerfully as it can inform. By critiquing and redesigning an existing visualization, I developed a sharper eye for how design choices shape the stories data tells."
+    "description": "Critical analysis and redesign of existing data visualizations applying principles of clarity and visual communication.",
+    "story": "Every visualization is an argument. By taking apart an existing chart and rebuilding it from scratch, I learned how design choices — color, scale, order, emphasis — can either reveal truth or quietly distort it."
   },
   {
     "title": "PSET 4: Abortion Data Analysis",
     "year": 2026,
     "image": "pset4figures/Visualization 1.png",
     "description": "Data analysis and visualization of abortion statistics by state using Guttmacher Institute data.",
-    "story": "Working with sensitive public health data taught me the weight of visualization choices. How you frame data about access to healthcare can either illuminate or obscure the human reality behind the numbers."
-  },
-  {
-    "title": "AR Fabrication Tools",
-    "year": 2025,
-    "image": "Rodrigo_Headshot.png",
-    "description": "Built AR tools for fabrication tasks at MIT, including planning user testing sessions.",
-    "story": "Bridging the physical and digital in fabrication contexts pushed me to think about how spatial computing can reduce errors and improve workflows for makers and builders."
-  },
-  {
-    "title": "VR Queueing Theory Module",
-    "year": 2025,
-    "image": "Rodrigo_Headshot.png",
-    "description": "Designed interactive VR scenarios to demonstrate queueing theory concepts for MIT AeroAstro.",
-    "story": "Making abstract systems theory tangible through VR was a creative challenge. I had to balance pedagogical clarity with engaging interaction design so students could feel the math, not just calculate it."
-  },
-  {
-    "title": "Skate Ecosystems",
-    "year": 2025,
-    "image": "Rodrigo_Headshot.png",
-    "description": "Designed skate layouts based on skater motion and informal feedback loops.",
-    "story": "Designing for skaters meant designing for flow. I learned to read informal feedback — the way a skater hesitates or repeats a line — as data about spatial performance."
-  },
-  {
-    "title": "Haptic XR User Studies",
-    "year": 2025,
-    "image": "Rodrigo_Headshot.png",
-    "description": "Conducted XR user studies using a haptic bracelet to evaluate spatial perception at Rice MAHI Lab.",
-    "story": "Running user studies with haptic technology revealed how much our sense of space is shaped by touch. Small vibrations changed how participants judged distance and presence in virtual environments."
-  },
-  {
-    "title": "Protolab Computational Design",
-    "year": 2024,
-    "image": "Rodrigo_Headshot.png",
-    "description": "Led scripting-based workflows for creative form generation and geometry studies at Protolab Architects.",
-    "story": "At Protolab I learned that computational design is really about encoding intuition into repeatable logic. Every script I wrote was a translation of a design idea into something a machine could amplify."
-  },
-  {
-    "title": "CougAR VR Learning Lab",
-    "year": 2023,
-    "image": "Rodrigo_Headshot.png",
-    "description": "Designed VR environments and workflows for immersive learning at the University of Houston.",
-    "story": "Designing learning environments in VR forced me to think about presence and attention differently. A well-designed virtual space can make abstract concepts feel immediate and real."
+    "story": "Working with sensitive public health data taught me that visualization is never neutral. The choices you make about what to show, how to scale it, and what to call it all carry moral weight — especially when the data is about access to care."
   }
 ]
