@@ -1,0 +1,17 @@
+[
+  {
+    "title": "PSET 2: Corporate Landlords & Evictions",
+    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "description": "Exploratory data analysis of corporate ownership and owner-occupancy rates across Boston neighborhoods from 2004–2024, examining racial and demographic patterns."
+  },
+  {
+    "title": "PSET 3: Visualization Critique & Redesign",
+    "image": "pset3figures/Final2.png",
+    "description": "Critical analysis and redesign of existing data visualizations, applying principles of clarity, accuracy, and visual communication."
+  },
+  {
+    "title": "PSET 4: Abortion Data Analysis",
+    "image": "pset4figures/Visualization 1.png",
+    "description": "Data analysis and visualization of abortion statistics by state using Guttmacher Institute data, exploring geographic and policy patterns."
+  }
+]
