@@ -44,15 +44,6 @@
 <slot />
 
 <style>
-  :global(:root) {
-    color-scheme: light dark;
-  }
-
-  :global(body) {
-    background-color: canvas;
-    color: canvastext;
-  }
-
   .color-scheme-switch {
     position: absolute;
     top: 1rem;
@@ -60,5 +51,40 @@
     display: inline-flex;
     gap: 4px;
     font-size: 80%;
+    font-family: inherit;
+  }
+
+  :global(:root) {
+    --accent: oklch(45.457% 0.31135 265.276);
+    --nav-border: oklch(50% 10% 200 / 40%);
+    --current: oklch(70% 20% 50);
+    --card: white;
+    --bg: #f9f9f9;
+    --text: #333;
+  }
+
+  :global(body) {
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  :global([style*="color-scheme: dark"]) {
+    --bg: #1a1a1a;
+    --text: #f0f0f0;
+    --card: #2a2a2a;
+    --nav-border: rgba(255,255,255,0.25);
+    --current: oklch(75% 20% 50);
+  }
+
+  :global(nav) {
+    background-color: var(--card) !important;
+  }
+
+  :global(.projects article) {
+    background-color: var(--card) !important;
+  }
+
+  :global(.contact-form) {
+    background-color: var(--card) !important;
   }
 </style>
