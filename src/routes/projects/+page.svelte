@@ -4,13 +4,21 @@
 	import Project from '$lib/Project.svelte';
 	import reading from '$lib/reading.json';
 	import ReadingItem from '$lib/ReadingItem.svelte';
+	import ProjectNarrative from '$lib/ProjectNarrative.svelte';
+
+	let years = projects.map(proj => proj.year);
+	let range = Math.max(...years) - Math.min(...years);
 </script>
 
 <svelte:head>
 	<title>Projects – Rodrigo Gallardo</title>
 </svelte:head>
 
-<h1>Projects</h1>
+<h1>{projects.length} Projects over {range} Years</h1>
+
+<p>Scroll down to see a timeline of my projects and how they've shaped my growth as a designer and researcher.</p>
+<ProjectNarrative />
+<p class="outro">Thanks for scrolling! Explore all projects below.</p>
 
 <div class="projects">
 
@@ -39,3 +47,7 @@
 	</article>
 
 </div>
+
+<style>
+  .outro { margin-bottom: 3rem; }
+</style>
