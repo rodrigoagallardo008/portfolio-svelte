@@ -44,6 +44,15 @@
 <slot />
 
 <style>
+  :global(:root) {
+    color-scheme: light dark;
+  }
+
+  :global(body) {
+    background-color: canvas;
+    color: canvastext;
+  }
+
   .color-scheme-switch {
     position: absolute;
     top: 1rem;
