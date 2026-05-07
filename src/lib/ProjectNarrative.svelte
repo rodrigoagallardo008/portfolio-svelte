@@ -37,12 +37,15 @@
 
 <style>
   .scrolly-wrapper {
-    width: min(120ch, 60vw);
+    width: min(90ch, 90vw);
     position: relative;
     left: 50%;
     transform: translateX(-50%);
   }
-  .step { min-height: 80vh; padding: 2rem; }
+  .step {
+    min-height: 40vh;
+    padding: 1rem;
+  }
   .step-content {
     border-left: 4px solid oklch(45.457% 0.31135 265.276);
     padding: 1.5rem 2rem;
@@ -52,7 +55,22 @@
   }
   .step-content h3 { margin: 0 0 0.5rem; font-size: 1.1rem; }
   .step-content p { margin: 0; line-height: 1.6; }
-  .project-detail { padding: 2rem; width: 100%; text-align: center; }
-  .project-detail img { width: 100%; border-radius: 0.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-  .project-detail h3 { font-size: 3rem; font-weight: bold; margin-bottom: 1rem; color: oklch(45.457% 0.31135 265.276); }
+  .project-detail {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .project-detail img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .project-detail h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: oklch(45.457% 0.31135 265.276);
+  }
 </style>
