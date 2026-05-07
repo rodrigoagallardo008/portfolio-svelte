@@ -5,9 +5,12 @@
 	import reading from '$lib/reading.json';
 	import ReadingItem from '$lib/ReadingItem.svelte';
 	import ProjectNarrative from '$lib/ProjectNarrative.svelte';
+	import * as d3 from 'd3';
+	import Bar from '$lib/Bar.svelte';
 
 	let years = projects.map(proj => proj.year);
 	let range = Math.max(...years) - Math.min(...years);
+	$: barData = d3.rollups(projects, v => v.length, d => d.year).map(([year, count]) => ({ label: String(year), value: count }));
 </script>
 
 <svelte:head>
@@ -15,6 +18,8 @@
 </svelte:head>
 
 <h1>{projects.length} Projects over {range} Years</h1>
+
+<Bar data={barData} />
 
 <p>Scroll down to see a timeline of my projects and how they've shaped my growth as a designer and researcher.</p>
 <ProjectNarrative />
