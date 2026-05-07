@@ -2,14 +2,6 @@
 	<title>Resume — Rodrigo Gallardo</title>
 </svelte:head>
 
-<nav>
-	<a href=".">Home</a>
-	<a href="projects">Projects</a>
-	<a href="contact">Contact</a>
-	<a class="current" href="resume">Resume</a>
-	<a href="https://github.com/rodrigoagallardo008" target="_blank">GitHub</a>
-</nav>
-
 <h1>Resume</h1>
 
 <section class="resume">

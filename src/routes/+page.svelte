@@ -10,14 +10,6 @@
 	<title>Rodrigo Gallardo: Personal Site and Portfolio</title>
 </svelte:head>
 
-<nav>
-	<a class="current" href=".">Home</a>
-	<a href="projects">Projects</a>
-	<a href="contact">Contact</a>
-	<a href="resume">Resume</a>
-	<a href="https://github.com/rodrigoagallardo008" target="_blank">GitHub</a>
-</nav>
-
 <h1>Rodrigo Gallardo</h1>
 
 <div class="home-header">

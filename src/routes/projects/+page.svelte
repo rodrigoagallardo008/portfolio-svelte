@@ -10,14 +10,6 @@
 	<title>Projects – Rodrigo Gallardo</title>
 </svelte:head>
 
-<nav>
-	<a href="{base}">Home</a>
-	<a class="current" href="{base}/projects">Projects</a>
-	<a href="{base}/contact">Contact</a>
-	<a href="{base}/resume">Resume</a>
-	<a href="https://github.com/rodrigoagallardo008" target="_blank">GitHub</a>
-</nav>
-
 <h1>Projects</h1>
 
 <div class="projects">
