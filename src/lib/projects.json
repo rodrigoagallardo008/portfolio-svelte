@@ -2,7 +2,7 @@
   {
     "title": "Visuo-Haptic Guidance System",
     "year": 2025,
-    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "image": "timeline/visuohaptic.png",
     "description": "A haptic guidance system combining computer vision and AR to assist users with physical tasks through real-time haptic feedback.",
     "story": "This project pushed me to think about how machines can guide human hands. By combining computer vision with haptic feedback, I explored how AR can bridge the gap between knowing what to do and physically doing it — turning abstract instructions into felt sensations."
   },
@@ -16,14 +16,14 @@
   {
     "title": "Self-Folding Modular Chain Robot",
     "year": 2025,
-    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "image": "timeline/Chain Folding.avif",
     "description": "A robotic system using geometric folding algorithms to create self-assembling modular chain structures.",
     "story": "Origami taught me that geometry is a form of intelligence. By encoding fold patterns into a modular chain, I learned how structure itself can become the mechanism — no motors, just math and material."
   },
   {
     "title": "Mixed Reality Optimized Beam Fabrication",
     "year": 2025,
-    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "image": "timeline/3D Printed Model.avif",
     "description": "AR system overlaying structural optimization data onto physical fabrication processes in real time.",
     "story": "MROBF started with a simple question: what if a builder could see structural forces while they work? Overlaying simulation data onto physical space transformed how fabricators made decisions — the digital and physical became one continuous workflow."
   },
@@ -58,28 +58,28 @@
   {
     "title": "Learning Environments in VR",
     "year": 2023,
-    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "image": "timeline/cougAR learning lab.png",
     "description": "Virtual reality learning environments built in Unreal Engine for immersive educational experiences.",
     "story": "A classroom doesn't have to have four walls. Building learning environments in VR taught me that presence changes how people engage with ideas — abstract concepts become explorable spaces, and curiosity replaces passivity."
   },
   {
     "title": "ARAM Augmented Reality Additive Manufacturing",
     "year": 2022,
-    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "image": "timeline/ARAM.avif",
     "description": "Mixed reality guidance system for concrete 3D printing fabrication workflows.",
     "story": "3D printing concrete is as much craft as computation. ARAM overlaid digital guidance onto the physical printing process, helping fabricators make real-time decisions that no algorithm could fully automate — a true human-machine collaboration."
   },
   {
     "title": "K67 Phenomenology",
     "year": 2022,
-    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "image": "timeline/phenomenology.png",
     "description": "Virtual reality exploration of the iconic K67 modular kiosk system using Unreal Engine.",
     "story": "The K67 kiosk is a piece of socialist design that ended up everywhere — from Ljubljana to New York. Recreating it in VR let me explore not just its form, but its cultural weight: what it meant to stand inside a system designed for everyone."
   },
   {
     "title": "Hercules Aqueduct",
     "year": 2022,
-    "image": "pset2figures/Neighborhood Corp Ownership.png",
+    "image": "timeline/hercules Aqueduct.avif",
     "description": "Mixed reality reconstruction and structural analysis of the Hercules Aqueduct heritage site.",
     "story": "Ancient engineers built things that lasted two thousand years without computers. Reconstructing the Hercules Aqueduct in mixed reality let me see their structural logic from the inside — and feel profound respect for what they achieved with stone and intuition."
   },
