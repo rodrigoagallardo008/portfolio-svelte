@@ -1,17 +1,65 @@
 [
   {
     "title": "PSET 2: Corporate Landlords & Evictions",
+    "year": 2026,
     "image": "pset2figures/Neighborhood Corp Ownership.png",
-    "description": "Exploratory data analysis of corporate ownership and owner-occupancy rates across Boston neighborhoods from 2004–2024, examining racial and demographic patterns."
+    "description": "Exploratory data analysis of corporate ownership and owner-occupancy rates across Boston neighborhoods from 2004–2024.",
+    "story": "I explored how corporate landlords have reshaped Boston neighborhoods over two decades. The data revealed stark disparities in communities of color like Roxbury and East Boston, where corporate ownership has surged while owner-occupancy declined."
   },
   {
     "title": "PSET 3: Visualization Critique & Redesign",
+    "year": 2026,
     "image": "pset3figures/Final2.png",
-    "description": "Critical analysis and redesign of existing data visualizations, applying principles of clarity, accuracy, and visual communication."
+    "description": "Critical analysis and redesign of existing data visualizations.",
+    "story": "I learned that a chart can mislead just as powerfully as it can inform. By critiquing and redesigning an existing visualization, I developed a sharper eye for how design choices shape the stories data tells."
   },
   {
     "title": "PSET 4: Abortion Data Analysis",
+    "year": 2026,
     "image": "pset4figures/Visualization 1.png",
-    "description": "Data analysis and visualization of abortion statistics by state using Guttmacher Institute data, exploring geographic and policy patterns."
+    "description": "Data analysis and visualization of abortion statistics by state using Guttmacher Institute data.",
+    "story": "Working with sensitive public health data taught me the weight of visualization choices. How you frame data about access to healthcare can either illuminate or obscure the human reality behind the numbers."
+  },
+  {
+    "title": "AR Fabrication Tools",
+    "year": 2025,
+    "image": "Rodrigo_Headshot.png",
+    "description": "Built AR tools for fabrication tasks at MIT, including planning user testing sessions.",
+    "story": "Bridging the physical and digital in fabrication contexts pushed me to think about how spatial computing can reduce errors and improve workflows for makers and builders."
+  },
+  {
+    "title": "VR Queueing Theory Module",
+    "year": 2025,
+    "image": "Rodrigo_Headshot.png",
+    "description": "Designed interactive VR scenarios to demonstrate queueing theory concepts for MIT AeroAstro.",
+    "story": "Making abstract systems theory tangible through VR was a creative challenge. I had to balance pedagogical clarity with engaging interaction design so students could feel the math, not just calculate it."
+  },
+  {
+    "title": "Skate Ecosystems",
+    "year": 2025,
+    "image": "Rodrigo_Headshot.png",
+    "description": "Designed skate layouts based on skater motion and informal feedback loops.",
+    "story": "Designing for skaters meant designing for flow. I learned to read informal feedback — the way a skater hesitates or repeats a line — as data about spatial performance."
+  },
+  {
+    "title": "Haptic XR User Studies",
+    "year": 2025,
+    "image": "Rodrigo_Headshot.png",
+    "description": "Conducted XR user studies using a haptic bracelet to evaluate spatial perception at Rice MAHI Lab.",
+    "story": "Running user studies with haptic technology revealed how much our sense of space is shaped by touch. Small vibrations changed how participants judged distance and presence in virtual environments."
+  },
+  {
+    "title": "Protolab Computational Design",
+    "year": 2024,
+    "image": "Rodrigo_Headshot.png",
+    "description": "Led scripting-based workflows for creative form generation and geometry studies at Protolab Architects.",
+    "story": "At Protolab I learned that computational design is really about encoding intuition into repeatable logic. Every script I wrote was a translation of a design idea into something a machine could amplify."
+  },
+  {
+    "title": "CougAR VR Learning Lab",
+    "year": 2023,
+    "image": "Rodrigo_Headshot.png",
+    "description": "Designed VR environments and workflows for immersive learning at the University of Houston.",
+    "story": "Designing learning environments in VR forced me to think about presence and attention differently. A well-designed virtual space can make abstract concepts feel immediate and real."
   }
 ]
