@@ -3,6 +3,7 @@
   import { onMount } from 'svelte';
   import * as d3 from 'd3';
   import BarHorizontal from '$lib/BarHorizontal.svelte';
+  import LineChart from '$lib/LineChart.svelte';
   import { computePosition, autoPlacement, offset } from '@floating-ui/dom';
 
   let locData = [];
@@ -25,6 +26,7 @@
   usableArea.height = usableArea.bottom - usableArea.top;
   let xAxis, yAxis, yAxisGridlines;
   let svg;
+  let linesByDate = [];
 
   $: hoveredCommit = commits[hoveredIndex] ?? {};
   $: [minDate, maxDate] = commits.length ? d3.extent(commits, d => d.date) : [new Date(), new Date()];
@@ -68,6 +70,22 @@
   $: barTitle = selectedCommits.length > 0
     ? `Language Breakdown for ${selectedCommits.length} Selected Commit${selectedCommits.length > 1 ? 's' : ''}`
     : "Language Breakdown for Entire Website";
+
+  $: {
+    const rolled = d3.rollups(
+      locData,
+      v => v.length,
+      d => d3.timeDay.floor(d.datetime)
+    ).map(([date, count]) => ({ date, count }));
+
+    const [minDate, maxDate] = d3.extent(rolled, d => d.date);
+    const allDays = minDate && maxDate ? d3.timeDays(minDate, d3.timeDay.offset(maxDate, 1)) : [];
+
+    linesByDate = allDays.map(date => ({
+      date,
+      count: rolled.find(d => d.date.getTime() === date.getTime())?.count ?? 0
+    }));
+  }
 
   onMount(async () => {
     locData = await d3.csv(`${base}/loc.csv`, row => ({
@@ -175,6 +193,8 @@
 
 <h2>Language Breakdown</h2>
 <BarHorizontal data={barData} title={barTitle} />
+
+<LineChart data={linesByDate} />
 
 <style>
   svg { overflow: visible; }
