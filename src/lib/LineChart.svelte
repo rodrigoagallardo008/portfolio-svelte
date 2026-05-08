@@ -107,7 +107,7 @@
     {#if isHighlighted}
       <text
         x={xScale(d.date)}
-        y={usableArea.top + 15}
+        y={yScale(d.count) - 10}
         text-anchor="middle"
         font-size="12"
         fill="var(--color-accent, steelblue)"
