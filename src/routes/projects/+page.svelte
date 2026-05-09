@@ -16,10 +16,6 @@
 
 <h1 style="font-size: 1.5rem">{projects.length} Projects over {range} Years</h1>
 
-<div style="display: flex; justify-content: center;">
-  <Bar data={barData} />
-</div>
-
 <div class="projects">
   <article>
     <h2>PSET 2: Corporate Landlords & Evictions</h2>
@@ -53,6 +49,9 @@
     <a href="https://rodrigoagallardo008.github.io/bikewatching/" target="_blank">View Project →</a>
   </article>
 </div>
+
+<h2>Projects per Year</h2>
+<Bar data={barData} />
 
 <h2>Project Timeline</h2>
 <p>Scroll down to see a timeline of my projects and how they've shaped my growth as a designer and researcher.</p>
