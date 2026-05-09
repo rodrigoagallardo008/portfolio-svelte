@@ -25,7 +25,7 @@
 
   $: colorScale = d3.scaleOrdinal()
     .domain(data.map(d => d.label))
-    .range(d3.quantize(d3.interpolateBlues, Math.max(data.length, 2)));
+    .range(d3.quantize(t => d3.interpolateBlues(0.2 + t * 0.8), Math.max(data.length, 2)));
 
   $: description = `A bar chart showing project counts by year. ${data.map(d => `${d.label}: ${d.value} projects`).join(', ')}.`;
 
