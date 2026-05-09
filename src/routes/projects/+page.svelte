@@ -51,6 +51,14 @@
 		<a href="{base}/projects/pset4.html">View Project →</a>
 	</article>
 
+	<article>
+		<h2>BikeWatch</h2>
+		<img src="{base}/timeline/bikewatching.png"
+			 alt="BikeWatch map visualization of BlueBike stations in Boston" />
+		<p>An interactive map visualization of BlueBike station traffic in the Boston/Cambridge area. Explore bike lane networks, station demand by time of day, and cycling isochrones from any station.</p>
+		<a href="https://rodrigoagallardo008.github.io/bikewatching/" target="_blank">View Project →</a>
+	</article>
+
 </div>
 
 <style>
