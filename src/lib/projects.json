@@ -84,6 +84,14 @@
     "story": "Ancient engineers built things that lasted two thousand years without computers. Reconstructing the Hercules Aqueduct in mixed reality let me see their structural logic from the inside — and feel profound respect for what they achieved with stone and intuition."
   },
   {
+    "title": "BikeWatch",
+    "year": 2026,
+    "image": "timeline/bikewatching.png",
+    "description": "An interactive map visualization of BlueBike station traffic in the Boston/Cambridge area. Explore bike lane networks, station demand by time of day, traffic flow direction, and cycling isochrones from any station.",
+    "url": "https://rodrigoagallardo008.github.io/bikewatching/",
+    "story": "BikeWatch combines Mapbox geospatial visualization with D3 data analysis to reveal patterns in 260,000+ bike rides from March 2024."
+  },
+  {
     "title": "PSET 2: Corporate Landlords & Evictions",
     "year": 2026,
     "image": "pset2figures/Neighborhood Corp Ownership.png",
